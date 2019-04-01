@@ -487,13 +487,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1100789316}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bd49fec7e520e844a00073ea7481d68, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cf814d320499b4459297502b48bba2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxAngle: 30
   maxTorque: 300
   brakeTorque: 30000
-  wheelShape: {fileID: 100000, guid: 01c23e3b42e6f4f44b3311dc6f472cfb, type: 3}
+  wheelShape: {fileID: 0}
   criticalSpeed: 5
   stepsBelow: 5
   stepsAbove: 1
@@ -633,11 +633,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1549790799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073667a9d64f70c4fb12db13572fd60f, type: 3}
+  m_Script: {fileID: 11500000, guid: a8499dccc5d557c449834b939beea226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   IMU: 0
-  port: \\.\COM10
+  port: COM10
   baudrate: 9600
 --- !u!4 &1549790801
 Transform:
